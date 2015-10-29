@@ -86,6 +86,8 @@ p.search_contact("Pepe")
 m = Microwave.new
 m.show_time
 m.heat_food
+s = Smartwatch.new("clockOs",2)
+s.take_photo
 
 devices = [Microwave.new, Smartwatch.new("clockOs",2), Laptop.new("macOs",15,true), Phone.new("iOS",5,Agenda.new)]
 
